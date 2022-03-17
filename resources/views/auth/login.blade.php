@@ -81,6 +81,9 @@
         <div class="row justify-content-center">
             <div class="col-12 col-lg-4">
                 <div class="">
+                    <div class="text-center">
+                        <img src="{{ asset('images/icon.png') }}" class="w-25" alt="">
+                    </div>
                     <div class="sign-in-form">
                         <h4 class="text-primary fw-bold text-center">Sign In</h4>
                         <p class="text-center">
