@@ -1,0 +1,70 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Padauk:wght@400;700&family=Raleway:wght@400;500;600;700&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+$primary : #096a71;
+$border-radius : 1rem;
+$border-radius-lg : 2rem;
+$btn-padding-x-lg : 2rem;
+
+// Typography
+$font-family-sans-serif: 'Montserrat', sans-serif;
+$font-size-base: 0.9rem;
+$line-height-base: 1.6;
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+@import "~@fortawesome/fontawesome-free/css/all.min.css";
+@import "~venobox/dist/venobox.min.css";
+
+.h-350{
+    height: 350px;
+}
+
+.user-img{
+    height: 40px;
+    width: 40px;
+    object-fit: cover;
+}
+.cover-img{
+    height: 350px;
+    object-fit: cover;
+}
+.post{
+    border-bottom: 1px solid $border-color;
+    padding-bottom: 1.5rem;
+}
+.post:last-child{
+    border-bottom: none;
+}
+
+.img-delete-btn{
+    margin-top: -70px;
+    margin-right: 15px;
+}
+
+.gallery-photo{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.profile-img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.edit-profile-footer{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 75px;
+    width: 100%;
+}
+.index-footer{
+    position: absolute;
+    left: 0;
+    height: 75px;
+    width: 100%;
+}
