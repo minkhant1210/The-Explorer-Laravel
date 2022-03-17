@@ -62,11 +62,11 @@ class PostController extends Controller
         $post->save();
 
         //mail sent here
-        $mailUsers = ['minkhantzaw1210@gmail.com','saungfornite1210@gmail.com','nainglin38636@gmail.com'];
-
-        foreach ($mailUsers as $mailUser){
-            Mail::to($mailUser)->later(now()->addSecond(5),new PostMail($post));
-        }
+//        $mailUsers = ['minkhantzaw1210@gmail.com','saungfornite1210@gmail.com','nainglin38636@gmail.com'];
+//
+//        foreach ($mailUsers as $mailUser){
+//            Mail::to($mailUser)->later(now()->addSecond(5),new PostMail($post));
+//        }
         //Mail::to('minkhantzaw1210@gmail.com')->send(new PostMail($post)); sngle sending mail
 
         return redirect()->route('index');
