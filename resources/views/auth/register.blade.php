@@ -158,7 +158,7 @@
                                 </div>
                             </div>
 
-                            <button class="btn btn-primary btn-lg rounded w-100">Sign Up</button>
+                            <button class="btn btn-primary btn-lg rounded w-100 mb-5">Sign Up</button>
                         </form>
 
                     </div>
